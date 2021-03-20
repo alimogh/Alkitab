@@ -1,0 +1,99 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hamza_tajweed"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Silent Letter"
+                android:textColor="#228B22"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:paddingTop="15dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_below="@+id/txt1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bismillah"
+                android:paddingTop="30dp"
+                android:paddingRight="15dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/img1"
+                android:scaleType="fitXY"
+                android:src="@drawable/tajweed"
+                android:layout_marginTop="20dp"/>
+
+
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Silent Letter"
+            android:textColor="#228B22"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:paddingTop="15dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp">
+
+        </TextView>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A letter which is free from any Harkat is called a silent letter. This letter will be written but not read."
+                android:layout_margin="15dp"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+
+
+        </RelativeLayout>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/taj5"
+            android:layout_margin="15dp"
+            />
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

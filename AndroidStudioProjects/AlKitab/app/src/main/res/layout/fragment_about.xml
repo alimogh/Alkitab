@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Al-Kitab"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="@color/default_green">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Al-Kitab, an app where you can learn Quran from the begining characters to ayat. Besides learning, here you will also get evaluation means the app acts as a tutor and will also let you know about your learning progress and you  mistakes."
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Supervised By:"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="@color/default_green"
+            android:layout_marginTop="15dp">
+
+        </TextView>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/inayat"
+            android:padding="15dp"
+            android:layout_marginStart="50dp">
+
+        </ImageView>
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dr. Inayat Ur Rehman"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/img1"
+            android:layout_marginStart="35dp">
+
+        </TextView>
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/saif"
+            android:padding="15dp"
+            android:layout_toRightOf="@id/img1"
+            android:layout_marginLeft="100dp">
+
+        </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img2"
+                android:layout_toRightOf="@id/txt1"
+                android:layout_marginTop="10dp"
+                android:text="Dr. Siaf Ur Rehman"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="65dp"
+
+                >
+
+            </TextView>
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Developed By:"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="@color/default_green"
+            android:layout_marginTop="15dp">
+
+        </TextView>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/wajeh"
+                android:padding="15dp">
+
+            </ImageView>
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wajeeh ul Hassan"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/img3">
+
+            </TextView>
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/awais"
+                android:padding="15dp"
+                android:layout_toRightOf="@id/img3"
+                android:layout_marginLeft="35dp">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/txt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img3"
+                android:layout_toRightOf="@id/txt3"
+                android:layout_marginTop="10dp"
+                android:text="Muhammad Awais"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="25dp"
+
+                >
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/img5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/hamza"
+                android:padding="15dp"
+                android:layout_toRightOf="@id/img4"
+                android:layout_marginLeft="35dp">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img5"
+                android:layout_toRightOf="@id/txt4"
+                android:layout_marginTop="10dp"
+                android:text="Hamza Butt"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="30dp"
+
+                >
+
+            </TextView>
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

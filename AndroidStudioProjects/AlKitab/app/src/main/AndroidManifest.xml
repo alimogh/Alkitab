@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.AWH.alkitab">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AlKitab">
+        <activity android:name=".learn_Chapter15"></activity>
+        <activity android:name=".learn_Chapter14" />
+        <activity android:name=".learn_Chapter13" />
+        <activity android:name=".learn_Chapter12" />
+        <activity android:name=".learn_Chapter11" />
+        <activity android:name=".learn_Chapter10" />
+        <activity
+            android:name=".prayerTiming"
+            android:parentActivityName=".bottomNav" />
+        <activity
+            android:name=".sixth_kalima"
+            android:parentActivityName=".kalima_selection" />
+        <activity
+            android:name=".fifth_kalima"
+            android:parentActivityName=".kalima_selection" />
+        <activity
+            android:name=".fourth_kalima"
+            android:parentActivityName=".kalima_selection" />
+        <activity
+            android:name=".third_kalima"
+            android:parentActivityName=".kalima_selection" />
+        <activity
+            android:name=".second_kalima"
+            android:parentActivityName=".second_kalima" />
+        <activity
+            android:name=".first_kalima"
+            android:parentActivityName=".kalima_selection" />
+        <activity
+            android:name=".kalima_selection"
+            android:parentActivityName=".bottomNav" />
+        <activity
+            android:name=".silent_letters_tajweed"
+            android:parentActivityName=".TajweedRules" />
+        <activity
+            android:name=".qalkalah_tajweed"
+            android:parentActivityName=".TajweedRules" />
+        <activity
+            android:name=".ghunnah_tajweed"
+            android:parentActivityName=".TajweedRules" />
+        <activity
+            android:name=".shadd_tajweed"
+            android:parentActivityName=".TajweedRules" />
+        <activity
+            android:name=".hamza_tajweed"
+            android:parentActivityName=".TajweedRules" />
+        <activity
+            android:name=".leen_letters_tajweed"
+            android:parentActivityName=".TajweedRules" />
+        <activity
+            android:name=".maddah_letters_tajweed"
+            android:parentActivityName=".TajweedRules" />
+        <activity
+            android:name=".tajweed_standing_fathaha"
+            android:parentActivityName=".TajweedRules" />
+        <activity
+            android:name=".tajweed_Jazm"
+            android:parentActivityName=".TajweedRules" />
+        <activity
+            android:name=".tajweed_movements"
+            android:parentActivityName=".TajweedRules" />
+        <activity
+            android:name=".tajweed_throatLetters"
+            android:parentActivityName=".TajweedRules" />
+        <activity
+            android:name=".aboutUs"
+            android:parentActivityName=".bottomNav" />
+        <activity
+            android:name=".Bold_Sound_Letters_Tajweed"
+            android:parentActivityName=".TajweedRules" />
+        <activity
+            android:name=".Similar_Sound_Letters_Tajweed"
+            android:parentActivityName=".TajweedRules" />
+        <activity
+            android:name=".Pronunciation_of_Letters_Tajweed"
+            android:parentActivityName=".TajweedRules" />
+        <activity
+            android:name=".Recognizing_The_Dots_Tajweed"
+            android:parentActivityName=".TajweedRules" />
+        <activity
+            android:name=".Arabic_Alphabets_Tajweed"
+            android:parentActivityName=".TajweedRules" />
+        <activity
+            android:name=".qari_selection"
+            android:parentActivityName=".Learn_select" />
+        <activity
+            android:name=".qari_select"
+            android:parentActivityName=".bottomNav" />
+        <activity
+            android:name=".learn_Chapter9"
+            android:parentActivityName=".qari_selection" />
+        <activity
+            android:name=".learn_Chapter8"
+            android:parentActivityName=".qari_selection" />
+        <activity
+            android:name=".learn_Chapter7"
+            android:parentActivityName=".qari_selection" />
+        <activity
+            android:name=".learn_Chapter6"
+            android:parentActivityName=".qari_selection" />
+        <activity
+            android:name=".learn_Chapter5"
+            android:parentActivityName=".qari_selection" />
+        <activity
+            android:name=".learn_Chapter4"
+            android:parentActivityName=".qari_selection" />
+        <activity
+            android:name=".learn_Chapter3"
+            android:parentActivityName=".qari_selection" />
+        <activity
+            android:name=".learn_Chapter2"
+            android:parentActivityName=".qari_selection" />
+        <activity
+            android:name=".learn_Chapter1"
+            android:parentActivityName=".qari_selection" />
+        <activity
+            android:name=".Etiquettes_Tajweed"
+            android:parentActivityName=".TajweedRules" />
+        <activity
+            android:name=".Introduction_Tajweed"
+            android:parentActivityName=".TajweedRules" />
+        <activity
+            android:name=".TajweedRules"
+            android:parentActivityName=".bottomNav" />
+        <activity
+            android:name=".hijriCalender"
+            android:parentActivityName=".bottomNav" />
+        <activity
+            android:name=".Qibla"
+            android:parentActivityName=".bottomNav" />
+        <activity
+            android:name=".prayer"
+            android:parentActivityName=".prayer_select" />
+        <activity
+            android:name=".prayer_select"
+            android:parentActivityName=".Learn_select" />
+        <activity android:name=".bottomNav" />
+        <activity
+            android:name=".Qari_chapter9"
+            android:parentActivityName=".qari_select" />
+        <activity
+            android:name=".Qari_chapter8"
+            android:parentActivityName=".qari_select" />
+        <activity
+            android:name=".Qari_chapter7"
+            android:parentActivityName=".qari_select" />
+        <activity
+            android:name=".Qari_chapter6"
+            android:parentActivityName=".qari_select" />
+        <activity
+            android:name=".Qari_chapter5"
+            android:parentActivityName=".qari_select" />
+        <activity
+            android:name=".Qari_chapter2"
+            android:parentActivityName=".qari_select" />
+        <activity
+            android:name=".Qari_chapter4"
+            android:parentActivityName=".qari_select" />
+        <activity
+            android:name=".Qari_chapter3"
+            android:parentActivityName=".qari_select" />
+        <activity
+            android:name=".Learn_select"
+            android:parentActivityName=".bottomNav" />
+        <activity
+            android:name=".splashScreen"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Record"
+            android:parentActivityName=".Qari_chapter1" />
+        <activity android:name=".Recorder" />
+        <activity
+            android:name=".ForgetPassword"
+            android:parentActivityName=".Login" />
+        <activity
+            android:name=".SignUp"
+            android:parentActivityName=".Login" />
+        <activity
+            android:name=".Login"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Qari_chapter1"
+            android:parentActivityName=".qari_select" />
+    </application>
+
+</manifest>

@@ -1,0 +1,182 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tajweed_standing_fathaha"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Standing Fathaha"
+                android:textColor="#228B22"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:paddingTop="15dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_below="@+id/txt1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bismillah"
+                android:paddingTop="30dp"
+                android:paddingRight="15dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/img1"
+                android:scaleType="fitXY"
+                android:src="@drawable/tajweed"
+                android:layout_marginTop="20dp"/>
+
+
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Standing Fathaha"
+            android:textColor="#228B22"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:paddingTop="15dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp">
+
+        </TextView>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="An alif like symbol written on top of a letter is called Standing Fataha. بٰ  =  بٰا"
+                android:layout_margin="15dp"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:backgroundTint="@color/default_green"
+            android:background="@color/default_green"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"/>
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Standing Kasra"
+            android:textColor="#228B22"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:paddingTop="15dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp">
+
+        </TextView>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A standing Kasrah is streched like a Yaa Maddah.
+Standing Zamah"
+                android:layout_margin="15dp"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/taj1"
+            android:layout_marginStart="20dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:backgroundTint="@color/default_green"
+            android:background="@color/default_green"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"/>
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Inverted"
+            android:textColor="#228B22"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:paddingTop="15dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp">
+
+        </TextView>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Symbol like the 'English comma' written upside down, on top of a letter is called inverted Damah (UltaaPaish). it is streched like a waowmaddah."
+                android:layout_margin="15dp"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:backgroundTint="@color/default_green"
+            android:background="@color/default_green"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/taj2"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"/>
+
+
+        
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

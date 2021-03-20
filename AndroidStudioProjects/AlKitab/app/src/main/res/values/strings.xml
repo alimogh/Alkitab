@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AlKitab</string>
+    <string name="nav_home">Home</string>
+    <string name="Home">nav_home</string>
+</resources>
